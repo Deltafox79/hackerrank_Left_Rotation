@@ -9,7 +9,7 @@ namespace array
         {
             Console.WriteLine("Enter the string array divided by space example (1 2 3 4 5) :\n");
             string[] nd = Console.ReadLine().Trim().Split(' ');
-            //Se Input è minore di 1 Esco dal Soft
+            //Se Input è minore o Uguale a 1 Esco dal Soft
             if (nd.Length <= 1)
                 Environment.Exit(0);
             Console.WriteLine("\nEnter the desired number of left rotation :\n");
